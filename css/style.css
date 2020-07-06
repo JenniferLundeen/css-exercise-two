@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  color: #00000;
+  color: #000000;
   font-size: 16px;
   font-family: serif;
 }
@@ -87,6 +87,7 @@ a:any-link {
   text-decoration: none;
 }
 
-a:hover {
-  color:#0070BC; /* mouse over */
-}
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#5400bb; } /* visited */
+a:hover { color:#00afbb; } /* mouse over */
+a:active { color:#000000; } /* selected */
